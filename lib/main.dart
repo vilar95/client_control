@@ -14,9 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Controle de clientes',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.indigo,
-      ),
+      theme: ThemeData.dark(),
       initialRoute: '/',
       routes: {
         '/': (context) => const ClientsPage(title: 'Clientes'),
