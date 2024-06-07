@@ -61,7 +61,7 @@ Future<IconData?> showIconPicker(
                     // give the selected icon a different color
                     color: selectedIcon == allIcons[index]
                         ? Colors.indigo
-                        : Colors.black,
+                        : Colors.deepOrange,
                     iconSize: 30,
                     icon: Icon(
                       allIcons[index],
